@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+}
+
+nav{
+    background-color: black;
+    color: greenyellow;
+    text-align: center;
+}
+header, footer {
+    font-family: cursive;
+    font-size: small;
+    width: 50%;
+    border: 10px groove; /*dashed, dotted, double, outline*/
+    background-color: black;
+    border-radius: 120px;
+    border-color: greenyellow;
+    color: greenyellow;
+
+}
+h3 {
+    background-color: black;
+    color: greenyellow;
+
+}
+div{
+    background-color: black;
+    color: lawngreen;
+
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: black
+;
+}
+nav li{
+    display: inline-block;
+    float: left;
+    padding: 1%;
+}
+main{
+    margin: 50px;
+    padding: 1%;
+}
+nav a:hover{/*link fookuses*/
+    background-color: black;
+    font-size: x-large;
+
+}
+nav a{
+    color: lawngreen;
+}
+nav li a{
+    font-family: cursive;
+    font-size: medium;
+    text-decoration: none;
+    border-right: 3pt solid greenyellow;
+    border-radius: 120px;
+    padding: 3px;
+
+}
