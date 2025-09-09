@@ -1,0 +1,78 @@
+/****table id=lihtne*********/
+#lihtne{
+    width: 60%;
+    border: 1px solid black;
+    background-color: white;
+    height: 200px;
+    border-collapse: collapse; /****Üks joon Borderis***/
+}
+#lihtne td{
+    border: 1px solid black;
+    text-align: center;
+}
+/*pseudostiiide kasutamine*/
+#lihtne tr:nth-child(1) td:nth-child(1){
+    background-color: blue;
+
+}
+#lihtne tr:nth-child(1) td:nth-child(2){
+    background-color: black;
+}
+#lihtne tr:nth-child(2) td:nth-child(1){
+    background-color: white;
+}
+#lihtne tr:nth-child(2) td:nth-child(2){
+    background-color: deepskyblue;
+}
+#Keeruline1{
+    width: 60%;
+    border: 1px solid black;
+    background-color: white;
+    height: 150px;
+    border-collapse: collapse; /****Üks joon Borderis***/
+}
+#Keeruline1 td {
+    border: 1px solid black;
+    text-align: center;
+}
+#Keeruline2{
+    width: 40%;
+    border: 1px solid black;
+    background-color: white;
+    height: 150px;
+    border-collapse: collapse; /****Üks joon Borderis***/
+}
+#Keeruline2 td {
+    border: 1px solid black;
+    text-align: center;
+}
+#Keeruline3{
+    width: 500px;
+    border: 1px solid black;
+    background-color: white;
+    height: 500px;
+    border-collapse: collapse; /****Üks joon Borderis***/
+}
+#Keeruline3 td {
+    border: 1px solid black;
+    text-align: center;
+}
+#Keeruline3 tr:nth-child(1) td:nth-child(1){
+    border: solid black;
+    text-align: center;
+}
+#Keeruline3 tr:nth-child(1) td:nth-child(2){
+    border: solid black;
+    text-align: center;
+}
+#Keeruline4{
+    width: 500px;
+    border: 1px solid black;
+    background-color: white;
+    height: 500px;
+    border-collapse: collapse; /****Üks joon Borderis***/
+}
+#Keeruline4 td {
+    border: 1px solid black;
+    text-align: center;
+}
